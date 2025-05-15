@@ -1,1 +1,2 @@
 # reconocimiento-facial
+### en este proyecto se muestra como diseñar y crear un control de acceso mediante una camara, y usando un reconocimiento facial para saber cuando un alumno esta presente, y/o concederle el acceso al establecimiento. tambien se puede usar en otros ambitos laborales, como oficinas, empresas, etc. todo para saber la asistencia y productividad de los trabajadores o del publico.
