@@ -1943,7 +1943,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.062 87.63) (xy 125.73 87.63)
+			(xy 114.3 87.63) (xy 125.73 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1970,6 +1970,16 @@
 			(type default)
 		)
 		(uuid "2246e94b-1330-45e9-baef-bcc17dd35b97")
+	)
+	(wire
+		(pts
+			(xy 220.726 87.63) (xy 220.726 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b09f36-cbd5-4ce0-97ac-df20686d962f")
 	)
 	(wire
 		(pts
@@ -2060,6 +2070,16 @@
 			(type default)
 		)
 		(uuid "6173f05c-e8eb-471f-84df-af73f539c2d3")
+	)
+	(wire
+		(pts
+			(xy 109.22 58.42) (xy 109.982 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b7345b-b986-4e6e-a313-e4951584c51b")
 	)
 	(wire
 		(pts
@@ -2193,7 +2213,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.062 87.63) (xy 115.062 57.912)
+			(xy 114.3 87.63) (xy 114.3 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2313,6 +2333,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 87.63) (xy 220.726 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32246d4-20b3-47a9-a7cb-ad86c81c4f2c")
+	)
+	(wire
+		(pts
 			(xy 199.39 70.612) (xy 159.512 70.612)
 		)
 		(stroke
@@ -2323,7 +2353,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.982 57.912) (xy 109.982 58.928)
+			(xy 109.22 54.61) (xy 109.22 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2363,16 +2393,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 90.17) (xy 219.456 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c565ad6c-7483-4a08-81ad-0184e19ca12d")
-	)
-	(wire
-		(pts
 			(xy 159.512 70.612) (xy 159.512 82.55)
 		)
 		(stroke
@@ -2380,6 +2400,26 @@
 			(type default)
 		)
 		(uuid "d096d128-e30a-445c-873c-7486282cb3a5")
+	)
+	(wire
+		(pts
+			(xy 220.726 91.44) (xy 219.456 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d389ebca-7150-4f19-adbd-10c7f5672a14")
+	)
+	(wire
+		(pts
+			(xy 219.456 91.44) (xy 219.456 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68df275-d9e7-4723-b5f9-df0117619b74")
 	)
 	(wire
 		(pts
@@ -2420,6 +2460,16 @@
 			(type default)
 		)
 		(uuid "ebfd68cc-3125-4f45-b09d-576b8b759027")
+	)
+	(wire
+		(pts
+			(xy 109.982 58.42) (xy 109.982 58.928)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec7daa0d-3bea-44ee-a85f-2c13c6e8850f")
 	)
 	(wire
 		(pts
@@ -2475,12 +2525,12 @@
 			(fill
 				(type none)
 			)
-			(uuid cdb24562-2a68-4108-b709-cf2d2734fff3)
+			(uuid 74803948-d1e7-405f-acef-4d263c443da5)
 		)
 	)
 	(symbol
 		(lib_id "Connector:Jack-DC")
-		(at 112.522 50.292 270)
+		(at 111.76 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2489,7 +2539,7 @@
 		(fields_autoplaced yes)
 		(uuid "11ef6581-251a-41de-bf12-7e421bd9f38a")
 		(property "Reference" "J2"
-			(at 117.348 49.0219 90)
+			(at 116.586 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,7 +2548,7 @@
 			)
 		)
 		(property "Value" "Jack-DC"
-			(at 117.348 51.5619 90)
+			(at 116.586 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,7 +2557,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
-			(at 111.506 51.562 0)
+			(at 110.744 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,7 +2566,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.506 51.562 0)
+			(at 110.744 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,7 +2575,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack"
-			(at 112.522 50.292 0)
+			(at 111.76 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +3398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EESTN5:BORNERA2_AZUL"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
 			(at 130.81 85.09 0)
 			(effects
 				(font
